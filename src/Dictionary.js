@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Dictionary.css";
+import axios from "axios";
 
 export default function Dictionary() {
   let [value, setValue] = useState("null");
@@ -8,9 +9,14 @@ export default function Dictionary() {
     setValue(event.target.value);
   }
 
+  function handleResponse(response) {
+    console.log(response.data[0].word);
+  }
+
   function search(event) {
     event.preventDefault();
-    alert(`Searching for ${value} definition`);
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${value}`;
+    axios.get(apiUrl).then(handleResponse);
   }
 
   return (
