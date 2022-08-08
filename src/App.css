@@ -1,3 +1,13 @@
+body {
+  background: #fff3f5;
+}
+
+.App-header {
+  color: #005892;
+  text-align: center;
+  font-weight: bold;
+}
+
 .App-footer {
   text-align: center;
   margin: 30px 0;

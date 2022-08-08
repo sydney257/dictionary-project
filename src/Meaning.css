@@ -1,3 +1,25 @@
+.Meaning h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.Meaning .definitionHeader {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.Meaning .definition {
+  margin-top: 10px;
+}
+
+.Meaning .exampleHeader {
+  color: #005892;
+  font-weight: bold;
+}
+
 .Meaning .example {
-  color: gray;
+  opacity: 0.7;
+  font-style: italic;
+  margin-top: 10px;
 }
