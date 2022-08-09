@@ -10,7 +10,16 @@ function App() {
           <Dictionary defaultValue="sunset" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Sydney Mercado</small>
+          <small>
+            <a
+              href="https://github.com/sydney257/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Open-sourced code
+            </a>{" "}
+            by Sydney Mercado
+          </small>
         </footer>
       </div>
     </div>
