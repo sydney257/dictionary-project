@@ -14,7 +14,12 @@
 
 .Dictionary input {
   width: 100%;
+  margin: 0 auto;
   padding: 12px;
   border: 1px solid #ddd;
   border-radius: 10px;
+}
+
+.Dictionary .container {
+  padding: 0;
 }

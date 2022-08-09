@@ -2,6 +2,11 @@ body {
   background: #fff3f5;
 }
 
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .App-header {
   color: #005892;
   text-align: center;
